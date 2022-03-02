@@ -30,6 +30,7 @@ form input, form label, form button {
   display: block;
   width: 100%;
   margin-bottom: 10px;
+  margin-left: 10px;
 }
 
 form input {
@@ -55,4 +56,15 @@ form button {
 
 form button:hover {
   background: var(--primary-color-darker);
+}
+.completo{
+  margin-left: 10px;
+}
+
+.feito{
+  text-decoration:line-through;
+  color: #636363;
+}
+.apagar {
+  margin: 10px;
 }
